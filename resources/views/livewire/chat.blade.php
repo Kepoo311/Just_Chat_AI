@@ -6,6 +6,10 @@
         <form wire:submit.prevent="getResponse" class="flex flex-col gap-2 mt-5">
             <textarea id="autoResizeTextarea" wire:model='question' class="textarea textarea-bordered w-[20rem] md:w-[40rem] resize-none"
                 placeholder="Your question..."></textarea>
+                <select wire:model='aiModel' class="select select-ghost w-full">
+                    <option selected value="GA">Groq AI</option>
+                    <option value="GM">Gemini</option>
+                  </select>
             <button id="submitButton" wire:submit='getResponse' wire:loading.attr="disabled" class="btn btn-neutral">
                 <span wire:loading.remove wire:target="getResponse">Submit</span>
                 <span wire:loading wire:target="getResponse" class="loading loading-spinner"></span>
