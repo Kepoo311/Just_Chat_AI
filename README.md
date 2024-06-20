@@ -59,7 +59,7 @@ Run this project
 ```  
 
 * Dont forget to uncomment the @vite(..) in resources\views\components\layouts\app.blade.php and comment the 
-  <!-- <link rel="stylesheet" href="{{asset('css/build.css')}}"> -->
+   link rel="stylesheet" href="{{asset('css/build.css')}}"
 
 ## Authors
 
