@@ -7,6 +7,7 @@ Just Chat AI is a website that used for chatting with ai, this website can be po
 ## Features
 
 - Asking question to ai
+- Select ai model
 
 ## Tech Stack
 
